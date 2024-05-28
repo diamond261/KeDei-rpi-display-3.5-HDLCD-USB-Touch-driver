@@ -38,7 +38,15 @@ If you want to save the value
 sudo nano /etc/X11/xorg.conf.d/99-calibration.conf
 ```
 Save the touch parameters to 99-calibration.conf
-the code same as in the image
+the code like this:
+section
+    "Tnputclas3TdentifierMatehProduetOptionOptionnSwapAxes"
+    rcalibration"
+    "ADS7846 1ouchscreen
+    rCalibration"
+    "208 3905 288 3910"
+Endsection
+---
 keyborad
 ---
 ```shell
